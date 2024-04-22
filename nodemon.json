@@ -1,0 +1,6 @@
+{
+    "ext": "ts",
+    "exec": "ts-node ./app.ts",
+    "delay": "1500",
+    "legacyWatch": true
+}
