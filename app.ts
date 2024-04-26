@@ -31,6 +31,8 @@ app.use(bodyParser());
 // 连接 MongoDB 数据库
 connectDB();
 
+console.log('TEST');
+
 router.use('/api/user', user.routes()); // 用户信息相关
 router.use('/api/list', list.routes()); // 列表文章相关
 
